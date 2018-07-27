@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/assembly_learning_basics.o \
+	${OBJECTDIR}/hotfix.o \
 	${OBJECTDIR}/leak_detector_c.o \
 	${OBJECTDIR}/master_brach_update.o
 
@@ -68,6 +69,11 @@ ${OBJECTDIR}/assembly_learning_basics.o: assembly_learning_basics.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/assembly_learning_basics.o assembly_learning_basics.c
+
+${OBJECTDIR}/hotfix.o: hotfix.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/hotfix.o hotfix.c
 
 ${OBJECTDIR}/leak_detector_c.o: leak_detector_c.c
 	${MKDIR} -p ${OBJECTDIR}
