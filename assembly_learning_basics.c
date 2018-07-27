@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "master_branch_update.h"
+
 struct test 
 {
     int a;
@@ -7,7 +9,7 @@ struct test
 };
 
 int main(int argc, char** argv) {
-    
+     
     struct test aTest[5];
     struct test *ptrTest;
     
@@ -29,11 +31,10 @@ int main(int argc, char** argv) {
     printf("Test[1]: %p\n",&aTest[1]);
     printf("ptrTest++: %p\n\n",ptrTest);
     printf("Test[1].a: %p\n",&aTest[1].a);
-    printf("Test[1].b: %p\n",&aTest[1].b);
+    printf("Test[1].b: %p\n\n",&aTest[1].b);
     
 
     printf("Commit 1\n");
-    printf("Commit 2\n");
 
     
     /*int a = 5;
