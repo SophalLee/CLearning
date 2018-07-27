@@ -24,17 +24,18 @@ int main(int argc, char** argv) {
     aTest[4].a = 52;
     aTest[4].a = 53;
     
-    ptrTest = aTest;
+    /*ptrTest = aTest;
     printf("Test[0]: %p\n",&aTest[0]);
     printf("ptrTest: %p\n\n",ptrTest);
     ptrTest++;
     printf("Test[1]: %p\n",&aTest[1]);
     printf("ptrTest++: %p\n\n",ptrTest);
     printf("Test[1].a: %p\n",&aTest[1].a);
-    printf("Test[1].b: %p\n\n",&aTest[1].b);
+    printf("Test[1].b: %p\n\n",&aTest[1].b);*/
     
-
-    printf("Commit 1\n");
+    display_message("Commit 0");
+    display_message("Commit 1");
+    display_message("Commit 2");
 
     
     /*int a = 5;
