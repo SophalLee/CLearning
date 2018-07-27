@@ -16,6 +16,7 @@
                    projectFiles="true">
       <itemPath>assembly_learning_basics.c</itemPath>
       <itemPath>hotfix.c</itemPath>
+      <itemPath>iss53_update.c</itemPath>
       <itemPath>leak_detector_c.c</itemPath>
       <itemPath>master_brach_update.c</itemPath>
     </logicalFolder>
@@ -46,6 +47,8 @@
       <item path="assembly_learning_basics.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="hotfix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="iss53_update.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="leak_detector_c.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -79,6 +82,8 @@
       <item path="assembly_learning_basics.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="hotfix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="iss53_update.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="leak_detector_c.c" ex="false" tool="0" flavor2="0">
       </item>
