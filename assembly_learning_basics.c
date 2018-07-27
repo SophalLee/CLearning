@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
     display_message("Commit 0");
     display_message("Commit 1");
     display_message("Commit 2");
-    display_message("Commit 3");
+    iss53_display_message("Commit 3");    
 
     
     /*int a = 5;
