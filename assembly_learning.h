@@ -28,3 +28,5 @@ extern "C" {
 #endif /* MASTER_BRANCH_UPDATE_H */
 
 void display_message(char * msg);
+void iss53_display_message(char * msg);
+
